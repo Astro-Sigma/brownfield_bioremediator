@@ -4,6 +4,7 @@ from sklearn.ensemble import RandomForestClassifier
 import matplotlib.pyplot as plt
 import json
 import streamlit.components.v1 as components
+from pathlib import Path
 
 # -------- Define lists --------
 toxic_compounds = [
@@ -35,8 +36,8 @@ soil_moisture = [
 @st.cache_resource
 def train_or_load_model():
     # Simulated training data
-    data_pd = pd.DataFrame(json.load(open(r"C:\Users\gianh\PycharmProjects\ScienceFairProject"
-                                          r"\balanced_brownfield_dataset.json", 'r')))
+    json_path = Path(__file__).parent / "balanced_brownfield_dataset.json"
+    data_pd = pd.DataFrame(json.load(open(json_path, 'r', encoding='utf-8')))
 
     # Fill in missing compound columns (simulate full list)
     for comp in toxic_compounds:
