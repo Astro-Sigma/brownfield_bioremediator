@@ -36,7 +36,7 @@ soil_moisture = [
 @st.cache_resource
 def train_or_load_model():
     # Simulated training data
-    json_path = Path(__file__).parent / "balanced_brownfield_dataset.json"
+    json_path = Path(__file__).parent.parent / "balanced_brownfield_dataset.json"
     data_pd = pd.DataFrame(json.load(open(json_path, 'r', encoding='utf-8')))
 
     # Fill in missing compound columns (simulate full list)
