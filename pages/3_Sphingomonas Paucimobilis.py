@@ -22,7 +22,7 @@ st.markdown(
 
 st.title("Sphingomonas Paucimobilis, a gram-negative bacterium")
 
-st.image("https://onlinelibrary.wiley.com/cms/asset/d10417f3-4313-4bc5-bac8-e3a3d5ed8efc/ccr37715-fig-0002-m.jpg")
+st.image("https://onlinelibrary.wiley.com/cms/asset/d10417f3-4313-4bc5-bac8-e3a3d5ed8efc/ccr37715-fig-0002-m.jpg", width=200)
 
 st.text("""Sphingomonas paucimobilis is a Gram-negative, rod-shaped, non-spore-forming bacterium belonging to the class Alphaproteobacteria and the family Sphingomonadaceae. Unlike many other Gram-negative bacteria, S. paucimobilis is uniquely characterized by the absence of lipopolysaccharides (LPS) in its outer membrane. Instead, it contains glycosphingolipids, which are believed to confer increased resistance to a range of environmental stresses and antimicrobial agents. This microorganism is aerobic and motile via a single polar flagellum, and it can be isolated from a wide variety of ecological niches, including soil, water systems, clinical settings, and industrial wastewater. Its metabolic versatility and ability to degrade complex organic molecules have established S. paucimobilis as a prominent candidate for use in the bioremediation of contaminated environments, particularly those polluted with xenobiotic and recalcitrant compounds.
 
