@@ -22,7 +22,7 @@ st.markdown(
 
 st.title("Brassica Juncea, aka Indian Mustard")
 
-st.image("https://upload.wikimedia.org/wikipedia/commons/4/42/Brassica_juncea_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-168.jpg")
+st.image("https://upload.wikimedia.org/wikipedia/commons/4/42/Brassica_juncea_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-168.jpg", width=30)
 
 st.text("""Brassica juncea, commonly known as Indian mustard, is a vigorous annual plant in the Brassicaceae family, widely cultivated for its culinary, agricultural, and industrial significance. Originating from the Indian subcontinent, it thrives in a variety of climates and soil types, displaying remarkable adaptability. Morphologically, the plant is characterized by deeply lobed green leaves, tall erect stems, bright yellow flowers, and seed pods containing pungent mustard seeds, which are frequently processed into edible oils, condiments, and traditional medicines. Due to its rapid growth rate, high biomass yield, and deep root system, B. juncea has also gained recognition as a promising candidate in the field of phytoremediation, particularly for sites contaminated with heavy metals and other toxic elements.
 
